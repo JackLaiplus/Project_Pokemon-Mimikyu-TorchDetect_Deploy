@@ -28,7 +28,7 @@
 - Matplotlib
 - Pillow
 
-### 📊 批量推論結果（Batch Inference Results）
+### 📊 批量推論結果
 
 以下為模型在測試集（test/）上隨機抽樣 12 張圖片進行批量推論的結果：
 <p align="center">
