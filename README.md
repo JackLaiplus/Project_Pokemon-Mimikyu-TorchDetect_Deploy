@@ -4,7 +4,7 @@
   <img src="assets/mimikyu.png" alt="Mimikyu Banner" width="90%">
 </p>
 
-專案簡介，`Project_Pokemon-Mimikyu-TorchDetect` 是一個基於 **TensorFlow/Keras** 的圖像分類專案，專門用來辨識寶可夢 **Mimikyu** 與 **Pikachu**。Mimikyu（日語：ミミッキュ）是一種會偽裝成 Pikachu 的寶可夢，原因在於為了獲得更多朋友。由於外觀相似，對模型來說辨識具有挑戰性。本專案目的是透過深度學習模型 **EfficientNetB0**，準確區分這兩種寶可夢。
+專案簡介，`Project_Pokemon-Mimikyu-TorchDetect` 是一個基於 **TensorFlow-Keras** 的圖像分類專案，專門用來辨識寶可夢 **Mimikyu** 與 **Pikachu**。Mimikyu（日語：ミミッキュ）是一種會偽裝成 Pikachu 的寶可夢，原因在於為了獲得更多朋友。由於外觀相似，對模型來說辨識具有挑戰性。本專案目的是透過深度學習模型 **EfficientNetB0**，準確區分這兩種寶可夢。
 
 ### 🎯 專案目標
 1. **建立高準確度分類模型**  
@@ -23,9 +23,9 @@
 
 ### 🛠️ 使用技術
 - Python 3.8+
-- TensorFlow 2.15+
 - NumPy
 - Matplotlib
+- Keras
 - Pillow
 - Jupyter Notebook
 
