@@ -27,6 +27,7 @@
 - NumPy
 - Matplotlib
 - Pillow
+- Jupyter Notebook
 
 ### 📊 批量推論結果
 
