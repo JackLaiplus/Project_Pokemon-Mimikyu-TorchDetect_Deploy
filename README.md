@@ -15,7 +15,7 @@
    包含資料增強、模型訓練、微調（Fine-tuning）與最佳權重儲存。
 4. **支援單張與批量推論**  
    方便部署與展示模型推論結果。
-5. **便於模型部署**  
+5. **便於深度學習模型部署**  
    支援輸出 `.keras` 與 `.h5` 格式，方便在不同環境載入與使用。
 
 ### 📊 資料集說明
@@ -43,13 +43,13 @@ A. 資料準備
    2. 增強策略：於輸入端套用隨機翻轉、旋轉、縮放、對比度等，以提升泛化。
    3. 資料管線：以 tf.data 建立高效批次載入與預取，確保訓練吞吐。
 
-B. 神經網路建構（CNN）
+B. **神經網路**建構（CNN）
 
    1. Backbone：載入 EfficientNetB0 (include_top=False, weights="imagenet")。
    2. 分類頭：Global pooling → Dense(2, softmax) 建立二分類輸出。
    3. 模型組裝：將增強層、Backbone 與分類頭以 Keras Functional API 接起。
 
-C. 深度學習訓練
+C. **深度學習模型**訓練
 
    1. Compile：optimizer=Adam、loss=SparseCategoricalCrossentropy、metrics=["accuracy"]。
    2. Stage-1（凍結訓練）：凍結骨幹（特徵抽取器），只訓練分類頭以穩定收斂。
