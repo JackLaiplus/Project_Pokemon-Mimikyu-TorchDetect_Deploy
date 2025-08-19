@@ -25,7 +25,7 @@
 
 **(1) 建模與資料分析工具**
 - 語言與環境：Python 3.x、Jupyter Notebook
-- 資料處理：Pandas、NumPy、Pillow（影像 I/O）
+- 資料處理：Pandas、NumPy、Pillow（影像 I/O／resize／格式轉換）
 - 視覺化：Matplotlib（學習曲線、ROC、推論結果網格）
 - 深度學習（TensorFlow/Keras，神經網路）：
     - 前處理／資料增強：Keras Preprocessing Layers（Rescaling、RandomFlip、RandomRotation、RandomZoom、RandomContrast）
